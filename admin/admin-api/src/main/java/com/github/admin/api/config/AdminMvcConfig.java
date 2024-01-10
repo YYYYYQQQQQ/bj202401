@@ -15,9 +15,6 @@ import javax.validation.ValidatorFactory;
 @Configuration
 public class AdminMvcConfig implements WebMvcConfigurer {
 
-
-
-
     @Bean
     public LocaleResolver localeResolver(){
         return new MyLocaleResolver();
@@ -27,8 +24,6 @@ public class AdminMvcConfig implements WebMvcConfigurer {
     public SpringContextUtils springContextUtils(){
         return new SpringContextUtils();
     }
-
-
 
     @Bean
     public Validator validator(){

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class ProjectProperties {
 
     /** 是否开启验证码 */
-    private boolean captchaOpen = false;
+    private boolean captchaOpen = true;
 
     /** 是否开启Swagger数据接口文档 */
     private boolean swaggerEnabled = true;
