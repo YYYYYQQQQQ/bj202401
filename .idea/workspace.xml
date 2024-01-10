@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c7287b-5dfc-48b2-9ac1-039b5518037a" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/config/AdminMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/config/AdminMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/properties/ProjectProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/properties/ProjectProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/TimoExpressionObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/TimoExpressionObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleMenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMenuMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMenuMapp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserRoleMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserRoleMapp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "d144705c94198dd28768c6f8d0702113"
   },
   "keyToStringList": {
@@ -107,7 +104,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiApplication">
+  <component name="RunManager" selected="JUnit.UserServiceTest._根据用户账号查询用户">
+    <configuration name="UserServiceTest._根据用户账号查询用户" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.admin.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.admin.server" />
+      <option name="MAIN_CLASS_NAME" value="com.github.admin.server.UserServiceTest" />
+      <option name="METHOD_NAME" value="_根据用户账号查询用户" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="admin-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.admin.server.AdminServerApplication" />
@@ -136,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest._根据用户账号查询用户" />
         <item itemvalue="Spring Boot.ApiApplication" />
         <item itemvalue="Spring Boot.AdminServerApplication" />
       </list>
@@ -151,7 +165,7 @@
       <updated>1704703931410</updated>
       <workItem from="1704703932702" duration="6646000" />
       <workItem from="1704768496264" duration="33334000" />
-      <workItem from="1704870042287" duration="3020000" />
+      <workItem from="1704870042287" duration="17624000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1704872887417</created>
@@ -167,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704873044734</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="变更">
+      <created>1704873143155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704873143155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
