@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c7287b-5dfc-48b2-9ac1-039b5518037a" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" afterDir="false" />
-    </list>
+    <list default="true" id="57c7287b-5dfc-48b2-9ac1-039b5518037a" name="变更" comment="账号查询" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +155,7 @@
       <updated>1704703931410</updated>
       <workItem from="1704703932702" duration="6646000" />
       <workItem from="1704768496264" duration="33334000" />
-      <workItem from="1704870042287" duration="17624000" />
+      <workItem from="1704870042287" duration="17946000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1704872887417</created>
@@ -188,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704873143155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="账号查询">
+      <created>1704894360260</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704894360260</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="变更" />
-    <option name="LAST_COMMIT_MESSAGE" value="变更" />
+    <MESSAGE value="账号查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="账号查询" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
