@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c7287b-5dfc-48b2-9ac1-039b5518037a" name="变更" comment="账号查询">
-      <change afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/RoleServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/RoleServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/MenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/MenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleMenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/MenuMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/MenuMapp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMapp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMenuMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMenuMapp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserRoleMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/UserServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="57c7287b-5dfc-48b2-9ac1-039b5518037a" name="变更" comment="实现根据用户账号查询用户以及查询用户对应菜单" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +200,7 @@
       <workItem from="1704703932702" duration="6646000" />
       <workItem from="1704768496264" duration="33334000" />
       <workItem from="1704870042287" duration="22359000" />
-      <workItem from="1704938177608" duration="20048000" />
+      <workItem from="1704938177608" duration="20387000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1704872887417</created>
@@ -259,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704894497735</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="实现根据用户账号查询用户以及查询用户对应菜单">
+      <created>1704976138811</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704976138811</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +265,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="变更" />
     <MESSAGE value="账号查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="账号查询" />
+    <MESSAGE value="实现根据用户账号查询用户以及查询用户对应菜单" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现根据用户账号查询用户以及查询用户对应菜单" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
