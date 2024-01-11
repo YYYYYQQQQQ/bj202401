@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c7287b-5dfc-48b2-9ac1-039b5518037a" name="变更" comment="账号查询" />
+    <list default="true" id="57c7287b-5dfc-48b2-9ac1-039b5518037a" name="变更" comment="账号查询">
+      <change afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/RoleServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/RoleServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/MenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/MenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleMenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/MenuMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/MenuMapp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMapp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMenuMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMenuMapp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserRoleMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/UserServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +45,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2dcf3e0e-ad09-45e1-a323-6ad8eb27184d" />
+        <option name="url" value="https://github.com/YYYYYQQQQQ/bj202401.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,7 +96,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.editor",
     "spring.configuration.checksum": "d144705c94198dd28768c6f8d0702113"
   },
   "keyToStringList": {
@@ -75,6 +105,9 @@
     ]
   }
 }]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Winter_programe\bj202401\admin\admin-common\src\main\java\com\github\admin\common\domain" />
@@ -94,7 +127,38 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest._根据用户账号查询用户">
+  <component name="RunManager" selected="JUnit.RoleServiceTest._根据用户id查询用户角色">
+    <configuration name="RoleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.admin.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.admin.server" />
+      <option name="MAIN_CLASS_NAME" value="com.github.admin.server.RoleServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleServiceTest._根据用户id查询用户角色" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.admin.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.admin.server" />
+      <option name="MAIN_CLASS_NAME" value="com.github.admin.server.RoleServiceTest" />
+      <option name="METHOD_NAME" value="_根据用户id查询用户角色" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest._根据用户账号查询用户" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="admin-server" />
       <extension name="coverage">
@@ -139,6 +203,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoleServiceTest._根据用户id查询用户角色" />
+        <item itemvalue="JUnit.RoleServiceTest" />
         <item itemvalue="JUnit.UserServiceTest._根据用户账号查询用户" />
         <item itemvalue="Spring Boot.ApiApplication" />
         <item itemvalue="Spring Boot.AdminServerApplication" />
@@ -155,7 +221,8 @@
       <updated>1704703931410</updated>
       <workItem from="1704703932702" duration="6646000" />
       <workItem from="1704768496264" duration="33334000" />
-      <workItem from="1704870042287" duration="17946000" />
+      <workItem from="1704870042287" duration="22359000" />
+      <workItem from="1704938177608" duration="20048000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1704872887417</created>
@@ -185,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704894360260</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="账号查询">
+      <created>1704894497735</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704894497735</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

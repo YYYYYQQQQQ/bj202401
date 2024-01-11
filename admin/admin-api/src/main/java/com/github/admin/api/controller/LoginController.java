@@ -80,6 +80,7 @@ public class LoginController {
             subject.login(token);
             //判断是否拥有角色后台
             User user = (User) SecurityUtils.getSubject().getPrincipal();
+            //Result<Boolean> result;
             Result<Boolean> result = null;
             if(result.isSuccess()){
                 return Result.ok(new URL("/main"));

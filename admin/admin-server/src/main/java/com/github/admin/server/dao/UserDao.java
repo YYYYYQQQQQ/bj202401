@@ -6,5 +6,7 @@ public interface UserDao {
 
     User findUserByUserName(String UserName);
 
+    User findUserByPrimaryKey(Long id);
+
 
 }

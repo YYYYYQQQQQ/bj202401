@@ -2,21 +2,34 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.github.admin.server.dao.RoleDao">
-    <resultMap id="BaseResultMap" type="com.github.admin.common.domain.Role">
-        <id column="id" property="id" jdbcType="BIGINT"></id>
-        <result column="title" property="title" jdbcType="VARCHAR"/>
-        <result column="pid" property="pid" jdbcType="BIGINT"/>
-        <result column="pids" property="pids" jdbcType="VARCHAR"/>
-        <result column="perms" property="perms" jdbcType="VARCHAR"/>
-        <result column="icon" property="icon" jdbcType="VARCHAR"/>
-        <result column="type" property="type" jdbcType="TINYINT"/>
-        <result column="sort" property="sort" jdbcType="INTEGER"/>
-        <result column="remark" property="remark" jdbcType="VARCHAR"/>
-        <result column="create_date" property="createDate" jdbcType="DATE"/>
-        <result column="update_date" property="updateDate" jdbcType="DATE"/>
-        <result column="create_by" property="createBy" jdbcType="BIGINT"/>
-        <result column="update_by" property="updateBy" jdbcType="BIGINT"/>
-        <result column="status" property="status" jdbcType="TINYINT"/>
+<mapper namespace="com.github.admin.server.dao.MenuDao">
+    <resultMap id="BaseResultMap" type="com.github.admin.common.domain.Menu">
+        <id column="id" property="id" jdbcType="INTEGER"></id>
+        <result column="title" property="title"/>
+        <result column="pid" property="pid"/>
+        <result column="pids" property="pids"/>
+        <result column="perms" property="perms"/>
+        <result column="icon" property="icon"/>
+        <result column="type" property="type"/>
+        <result column="sort" property="sort"/>
+        <result column="remark" property="remark"/>
+        <result column="create_date" property="createDate"/>
+        <result column="update_date" property="updateDate"/>
+        <result column="create_by" property="createBy"/>
+        <result column="update_by" property="updateBy"/>
+        <result column="status" property="status"/>
     </resultMap>
+
+    <select id="findMenuByMenuIds" parameterType="java.util.List" resultMap="BaseResultMap">
+        select * from sys_menu
+        <where>
+            <if test="menuIdList != null">
+                id in
+                <foreach item="menuId" index="index" collection="menuIdList"
+                         open="(" separator="," close=")">
+                    #{menuId}
+                </foreach>
+            </if>
+        </where>
+    </select>
 </mapper>
