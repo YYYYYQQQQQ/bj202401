@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c7287b-5dfc-48b2-9ac1-039b5518037a" name="变更" comment="实现根据用户账号查询用户以及查询用户对应菜单">
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/handler/ResultExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/MenuServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/group/AddRoleGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/group/AddUserGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/group/UpdatePwdGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/group/UpdateRoleGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/group/UpdateUserGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/request/RoleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/request/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/MenuServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/ApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/RoleServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/RoleServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/AdminServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/AdminServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleMenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMenuMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMenuMapp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/RoleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/RoleServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/UserServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="57c7287b-5dfc-48b2-9ac1-039b5518037a" name="变更" comment="实现用户管理界面的添加用户功能、实现编辑用户、实现查看用户详情、实现删除用户、实现批量启用、停用用户权限、实现修改用户密码、实现用户的角色分配&#10;实现角色菜单的显示、查询角色、查看角色的用户列表、添加角色、编辑角色信息、查看角色信息详情、删除角色、批量授权、停用、删除" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -244,7 +203,7 @@
       <workItem from="1704703932702" duration="6646000" />
       <workItem from="1704768496264" duration="33334000" />
       <workItem from="1704870042287" duration="22359000" />
-      <workItem from="1704938177608" duration="143155000" />
+      <workItem from="1704938177608" duration="143721000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1704872887417</created>
@@ -295,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704976511975</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="实现用户管理界面的添加用户功能、实现编辑用户、实现查看用户详情、实现删除用户、实现批量启用、停用用户权限、实现修改用户密码、实现用户的角色分配&#10;实现角色菜单的显示、查询角色、查看角色的用户列表、添加角色、编辑角色信息、查看角色信息详情、删除角色、批量授权、停用、删除">
+      <created>1705580274284</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705580274284</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +313,8 @@
     <MESSAGE value="变更" />
     <MESSAGE value="账号查询" />
     <MESSAGE value="实现根据用户账号查询用户以及查询用户对应菜单" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现根据用户账号查询用户以及查询用户对应菜单" />
+    <MESSAGE value="实现用户管理界面的添加用户功能、实现编辑用户、实现查看用户详情、实现删除用户、实现批量启用、停用用户权限、实现修改用户密码、实现用户的角色分配&#10;实现角色菜单的显示、查询角色、查看角色的用户列表、添加角色、编辑角色信息、查看角色信息详情、删除角色、批量授权、停用、删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现用户管理界面的添加用户功能、实现编辑用户、实现查看用户详情、实现删除用户、实现批量启用、停用用户权限、实现修改用户密码、实现用户的角色分配&#10;实现角色菜单的显示、查询角色、查看角色的用户列表、添加角色、编辑角色信息、查看角色信息详情、删除角色、批量授权、停用、删除" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
