@@ -28,4 +28,75 @@
         </where>
     </select>
 
+    <select id="findRoleByPageCount" parameterType="map" resultType="java.lang.Long">
+        select count(*) from sys_role
+        <where>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+            <if test="name != null">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="title != null">
+                and title like concat('%',#{title},'%')
+            </if>
+        </where>
+    </select>
+    <select id="findRoleByPageList" parameterType="map" resultMap="BaseResultMap">
+        select * from sys_role
+        <where>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+            <if test="name != null">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="title != null">
+                and title like concat('%',#{title},'%')
+            </if>
+        </where>
+        <if test="orderByColumn != null and asc != null">
+            order by ${orderByColumn} ${asc}
+        </if>
+        <if test="startIndex != null and endIndex != null">
+            limit #{startIndex},#{endIndex}
+        </if>
+    </select>
+
+    <select id="findRoleByTitle" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select * from sys_role where title = #{title}
+    </select>
+
+    <insert id="insert">
+        insert into sys_role(title,name,status,remark,create_date,update_date,create_by,update_by)
+        values (#{title},#{name},#{status},#{remark},#{createDate},#{updateDate},#{createBy},#{updateBy})
+    </insert>
+    <select id="findRoleById" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select * from sys_role where id = #{id}
+    </select>
+
+    <update id="update">
+        update sys_role
+        <set>
+            <if test="title != null">
+                title = #{title},
+            </if>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="status != null">
+                status = #{status},
+            </if>
+            <if test="remark != null">
+                remark = #{remark},
+            </if>
+            <if test="updateDate != null">
+                update_date = #{updateDate},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+    <delete id="deleteRoleById" parameterType="long">
+        delete from sys_role where id = #{id}
+    </delete>
 </mapper>

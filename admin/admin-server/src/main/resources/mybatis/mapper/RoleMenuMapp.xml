@@ -21,4 +21,7 @@
             </if>
         </where>
     </select>
+    <delete id="deleteRoleMenuByRoleId" parameterType="long">
+        delete from sys_role_menu where role_id = #{id}
+    </delete>
 </mapper>

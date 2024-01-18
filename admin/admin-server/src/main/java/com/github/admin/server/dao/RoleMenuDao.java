@@ -9,4 +9,5 @@ public interface RoleMenuDao {
 
     List<RoleMenu> findRoleMenuByRoleIds(@Param("roleIds") List<Long> roleIds);
 
+    int deleteRoleMenuByRoleId(Long id);
 }

@@ -15,9 +15,19 @@ public enum AdminErrorMsgEnum  implements IError {
 
     DATA_IS_NOT_EXIST("10006","数据不存在"),
 
+    USER_PASSWORD_IS_NOT_SAME("10007","用户输入密码不一致"),
 
+    USER_NAME_IS_EXIST("10008","当前用户已存在"),
 
+    USER_NAME_HAS_INCLUDE_BLANK("10009","账号存在空格"),
 
+    ROLE_TITLE_HAS_INCLUDE_BLANK("10010","角色名称存在空格"),
+
+    ROLE_TITLE_IS_EXIST("10011","当前角色已存在"),
+
+    HAVE_NO_AUTHORITY("10012","无权限进行此操作"),
+
+    OPERATION_FAIL("10098","操作失败"),
     SYSTEM_EXCEPTION("10099","系统异常")
 
 

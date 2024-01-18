@@ -3,6 +3,7 @@ package com.github.admin.api.controller;
 import cn.hutool.core.util.RandomUtil;
 import com.github.admin.api.properties.ProjectProperties;
 import com.github.admin.api.utils.URL;
+import com.github.admin.client.RoleServiceClient;
 import com.github.admin.common.domain.User;
 import com.github.admin.common.enums.AdminErrorMsgEnum;
 import com.github.admin.common.request.LoginRequest;
@@ -36,6 +37,8 @@ public class LoginController {
     @Resource
     private ProjectProperties properties;
 
+    @Resource
+    private RoleServiceClient roleServiceClient;
 
     @GetMapping(value = {"/login","/"})
     public String login(Model model, HttpServletResponse response){
@@ -60,7 +63,7 @@ public class LoginController {
             Session session = SecurityUtils.getSubject().getSession();
             String sessionCaptcha = (String) session.getAttribute("captcha");
             if(StringUtils.isBlank(captcha) || StringUtils.isBlank(sessionCaptcha)
-                    || !captcha.toUpperCase().equals(sessionCaptcha.toLowerCase())){
+                    || !captcha.toUpperCase().equals(sessionCaptcha.toUpperCase())){
                 return Result.fail(AdminErrorMsgEnum.USER_LOGIN_CAPTCHA_IS_EMPTY);
             }
             session.removeAttribute("captcha");
@@ -80,8 +83,7 @@ public class LoginController {
             subject.login(token);
             //判断是否拥有角色后台
             User user = (User) SecurityUtils.getSubject().getPrincipal();
-            //Result<Boolean> result;
-            Result<Boolean> result = null;
+            Result<Boolean> result = roleServiceClient.findRoleByUserId(user.getId());
             if(result.isSuccess()){
                 return Result.ok(new URL("/main"));
             }else {

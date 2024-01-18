@@ -8,4 +8,12 @@ public interface UserRoleDao {
 
 
     List<UserRole> findUserRoleByUserId(Long userId);
+
+    int deleteUserRoleByUserId(Long id);
+
+    int inset(UserRole userRole);
+
+    int deleteUserRoleByRoleId(Long id);
+
+    List<UserRole> findUserRoleByRoleId(Long id);
 }
